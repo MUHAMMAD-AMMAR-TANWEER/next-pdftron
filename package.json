@@ -9,14 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^10.0.0",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
     "eslint": "8.38.0",
-    "eslint-config-next": "13.3.0",
-    "next": "13.3.0",
+    "eslint-config-next": "13.2.4",
+    "file-loader": "^6.2.0",
+    "next": "13.2.4",
+    "pdfjs-dist": "^3.4.120",
+    "raw-loader": "^4.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-pdf": "^6.2.2",
+    "react-pdf-viewer": "^0.1.0",
+    "slate": "^0.93.0",
+    "slate-react": "^0.93.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-pdf": "^6.2.0",
+    "node-loader": "^2.0.0",
+    "url-loader": "^4.1.1"
   }
 }
